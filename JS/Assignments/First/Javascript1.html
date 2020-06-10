@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="bootstrap-4.5.0/dist/css/bootstrap.min.css">
+    <title>Javascript assignment 1</title>
+</head>
+<body style="background-color:#D3D3D3;text-align:center">
+<br><br>
+<div class="tabs">
+    <div class="butns row">
+        <button class="butl col btn bg-secondary" onclick="tabssetup(event,'Application')">Application</button>
+        <button class="butl col btn bg-secondary" onclick="tabssetup(event,'Processing')">Processing</button>
+        <button class="butl col btn bg-secondary" onclick="tabssetup(event,'THE END')">THE END</button>
+    </div>
+    <div class="cont" id="Application">
+<br><br>
+<form>
+
+ <label for="name">Name:</label>
+  <input type="text" id="name" name="name" size="50" autofocus required>*<br><br>
+ <label name="country">Country:</label>
+  <select name="country" >
+      <option value="India" selected>India</option>
+      <option value="United States of America">United States of America</option>
+      <option value="England">England</option>
+      <option value="China">China</option>
+      <option value="Canada">Canada</option>
+  </select>*
+    <br><br>
+    <label>Contact details</label><br>
+    <ol id="contact">
+    <li><input type="text" size="50" required placeholder="Name">*
+    <input type="email" size="70" required placeholder="Email">*
+    <br></li>
+       </ol>
+    <script>
+      function add()
+      {
+      var x=document.createElement('li');
+x.className="newcontact";
+      x.innerHTML=" <input type='text' size='50' placeholder='Name'> <input type='email' size='70' placeholder='Email'><br>"
+document.getElementById("contact").appendChild(x);
+
+      }
+    </script>
+<button onclick="add();return false;">Add another</button>
+  <br>
+  <br>
+    <label for="mnumber">Mobile Number:</label>
+  <input style="margin:0px 10px" type="number" required id="mnumber" name="mnumber" min="1000000000" max="9999999999"><br><br>
+    <label for="age">Age:</label>
+    <input style="margin:0px 10px" type="number" required id="age" name="age" min="5" max="120">*
+<br><label for='voteid'>Voter ID:</label><input style='margin:0px 10px' type='number' id='voteid' name='voteid' size='8'><br>
+
+    <br><br><br>   <input type="submit" value="Submit">
+</form>
+        </div>
+    <div class="cont" id="Processing">This part is not yet developed properly</div>
+    <div class="cont" id="THE END">OOPS......! Same here 😅</div>
+</div>
+
+<script>
+    function tabssetup(evt,status) {
+  var i, cont, butl;
+  cont = document.getElementsByClassName("cont");
+  for (i=0;i<cont.length;i++)
+  {
+    cont[i].style.display="none";
+  }  
+  butl = document.getElementsByClassName("butl");
+  for (i=0;i<butl.length;i++)
+  {
+    butl[i].className=butl[i].className.replace(" active", "");
+  }
+  document.getElementById(status).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html>
