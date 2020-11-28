@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 export default function Landingpage() {
     return (
         <div style={{backgroundColor:'#ECECEC'}}>
-            <img class='welcome' src={welcomebanner} />
-            <br/><br/><br/><br/><br/>
+            <img alt='Welcomebanner' className='welcome' src={welcomebanner} />
+            <br/><br/><br/>
            
-            <div class='buttons'><Link to="/Login" ><Button variant="primary" size="lg" block>
+            <div className='buttons'><Link to="/Login" ><Button variant="primary" size="lg" block>
     Login
   </Button></Link>
- <Link to="/Signup"> <Button Redirect variant="" size="lg" block>
+ <Link to="/Signup"> <Button  variant="" size="lg" block>
     Sign Up
   </Button></Link></div>
 

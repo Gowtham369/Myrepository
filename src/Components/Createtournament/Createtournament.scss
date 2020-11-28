@@ -1,0 +1,26 @@
+.circleprofpic
+{
+    display: block;
+    margin:auto;
+    margin-top: 70px;
+   
+   box-shadow: -2px 2px gray, 2px -2px gray;
+    border-radius: 50%;
+    width: 170px;
+}
+#photo-input[type='file']{display :none}
+#date-input{width:80%;
+    margin:0 10px
+}
+.datestyle{
+margin:13px;
+    display:flex;
+    color: gray;
+
+    font-size: 18px;
+}
+.menu
+{
+    float: right;
+     display:flex;align-items: baseline;
+}
