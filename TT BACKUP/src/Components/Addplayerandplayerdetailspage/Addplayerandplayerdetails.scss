@@ -1,0 +1,74 @@
+.formcontrol
+{
+    align-items: center;
+    margin: 5% 25%;
+}
+/* .title
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    padding:30px;
+    text-align: center;
+    border: solid darkgray;
+    border-width: 0px 0px 5px 0px;
+    background-color: #7edfc3;
+    margin: 0%;
+} */
+.updatedprofpic
+{
+    padding: 15px;
+    background-color: white;
+border:  black ;
+border-radius: 50%;
+margin: 7rem 34% 0rem 39% ;
+width: 190px;
+height:190px;
+box-shadow:0px 0px 5px;
+}
+
+//playerdetails
+
+.playerdetailsflex
+{
+    display: flex;
+    margin:10px 4px;
+}
+.playerprofilepic
+{
+   float: left;
+   box-shadow: 0px 0px 5px;
+    border-radius: 50%;
+    width: 250px ;
+    height: 250px;
+    margin:50px;
+}
+.playernameandso
+{
+margin:90px 10px 10px 10px;
+font-size: large;
+}
+.playerdetail
+{
+    margin:5px 50px; 
+}
+/* .horizontalline
+{
+    border-top: 5px solid #8c8b8b; 
+} */
+.participatedtournies
+{
+    
+    margin:auto;
+    margin-left:52px ;
+    margin-top: 2rem;
+    border:solid gray 1px;
+    box-shadow: 0px 0px 7px #888888;
+    width:70%;
+    min-height: 40px;
+    text-decoration: none;
+    padding:4px;
+    text-decoration: bold;
+    border-radius: 10px;
+    background-color: #f9fafa;
+    font-family: Nunito;
+    
+}

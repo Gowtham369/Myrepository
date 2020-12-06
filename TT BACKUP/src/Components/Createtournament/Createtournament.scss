@@ -1,0 +1,56 @@
+.circleprofpic
+{display: block;
+    margin:auto;
+    margin-top: 70px;
+   box-shadow: 0px 0px 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#photo-input[type='file']{display :none}
+#date-input{width:80%;
+    margin:0 10px
+}
+.datestyle{
+margin:13px;
+   display: flex;
+   justify-content: space-between;
+    color: gray;
+    font-size: 18px;
+}
+
+//Menu field
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+     font-size: large;
+/* position: fixed; */
+margin-right:40px;
+margin-top: -35px;
+float:right;
+box-shadow: 1px 1px 5px;
+border-radius: 1px;
+/* margin-left:50% ; */
+}
+.menubtn
+{
+    border:none;
+    padding:15px;
+    background-color:white
+}
+
+
+.tournamentdetailsimagediv
+{
+margin:0px 10px 40px 100px
+}
+.tournamenttitle
+{
+    margin:30px 10px 0px 0px
+}
+.fieldsstyle
+{
+width:100%;height:50px;border-radius:3px;border:1px solid #DEDEDE;
+}

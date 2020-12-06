@@ -1,0 +1,142 @@
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: static;
+    /* z-index: 1; */
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+   /*  left: 25%; */
+   float: left;
+    /* border-right: solid gray 1.5px; */
+  }
+  .verticalline
+  {
+    border-left: 6px solid gray;
+    height: 100%;
+    position:absolute ;
+    left: 50%;
+    top: 0;
+    z-index: -2;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    /* right: 25%; */
+   float: right;  
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: initial;
+    top: 50%;
+   /*  transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+  .versus
+  {
+     
+     text-align: center;
+      border-radius: 50%;
+      background-color: lightgray;
+      left: 48.7%;
+      margin-top:250px;
+      width: 40px;
+      z-index: -1;position: absolute;
+
+      
+  }
+
+  .scoreinputcontainer
+  {
+    z-index: +1;
+    border-radius: 10px;
+    padding:4px;
+    display: flex;
+    border:solid black 2px;
+    width:240px;
+    margin: auto;
+    position: static;
+    margin-left: 37%;
+  }
+
+  .medalstyling
+  {
+    margin-top: 5px;
+    height: 25px;
+    width: 20px;
+  }
+  .scorefield
+  {
+    border:none;
+    padding:4px;
+    margin:auto;
+  }
+  .scoringfield
+  {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin:30px
+  }
+
+                      //Matches display
+  .matchcards
+  {
+    margin:auto;
+    margin-top: 1rem;
+    border:solid gray 1px;
+    box-shadow: 0px 0px 4px;
+    width:70%;
+    min-height: 60px;
+    text-decoration: none;
+    padding:25px;
+    text-decoration: bold;
+border-radius: 10px;
+text-align: center;
+  }
+  .matchplayerpicdisplay
+  {
+    display: block;
+    margin:auto;   
+   box-shadow: 0px 0px 4px;
+    border-radius: 50%;
+    width: 110px;height: 100px;
+}
+
+.matchmedalstyling
+{
+  margin-top: 34px;
+    height: 30px;
+    width:  25px;
+}
+
+.matchversus
+{display: block;
+  text-align: center;
+  border-radius: 50%;
+  background-color: lightgray;
+  width: 45px;
+  height: 28px;
+  margin: auto;
+  margin-top: 3rem;
+}
+.matchtitle
+{
+  margin:20px 150px;
+}

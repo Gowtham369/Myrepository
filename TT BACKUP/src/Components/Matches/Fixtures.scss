@@ -1,0 +1,63 @@
+.tourntitle
+{
+  margin:40px 30px;
+  
+}
+.fixturesdisplay
+{
+display: flex;
+justify-content: space-evenly;
+
+align-items: center;
+}
+.roundsstyle
+{
+  display: flex;
+align-items: center;
+  flex-direction: column;
+}
+.matchesstyle
+{
+  margin:22px 0px;
+ 
+}
+.fixturespic
+{
+  display: block;
+  margin:auto;   
+  margin-right: 5px;
+ box-shadow: 0px 0px 4px;
+  border-radius: 50%;
+  width: 26px;height: 26px;
+}
+.player1style
+{
+  display: flex;
+  border: 1.5px solid #EDF0F2;
+  padding: 10px;
+  justify-content: space-between;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+.player2style
+{
+  display: flex;
+  border: 1.5px solid #EDF0F2;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.playerstyle
+{
+  display: flex;
+  border: 1.5px solid #EDF0F2;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius:8px;
+}
+.completed
+{
+  color: #54D17B;
+  /* margin-bottom: 50px; */
+}
