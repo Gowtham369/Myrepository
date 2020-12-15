@@ -1,0 +1,43 @@
+.appstyle
+{
+    margin: auto;
+/*     border: black 1px;
+    box-shadow: 0px 0px 5px; */
+    border-top: none;
+    border-bottom: none;
+    min-height: 668px;
+    font-family: Nunito;
+    font-style:normal;
+    background-color: #FCFCFC;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* @media  (max-width:600px)
+{.appstyle {
+   width:100% !important;
+}} */
+@media (min-width:600px)
+{.appstyle {
+   background-color: yellow;
+   width:100%;
+}}
+@media (min-width:700px)
+{.appstyle {
+   background-color: red;
+   width:100%;
+
+}}
+@media (min-width:1024px)
+{.appstyle {
+   width:700px;
+   background-color: blue;
+}}
+
+
+@media (min-width:1440px)
+{.appstyle {
+   background-color: tomato;
+   width:700px;
+}}

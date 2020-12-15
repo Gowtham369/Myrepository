@@ -1,0 +1,111 @@
+$buttoncolor:#5983E3;
+.welcome
+{
+
+    justify-content: center;
+   width:100%;
+/* padding: 5px 20% ; */
+
+
+}
+.signupbutton
+{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.titletable
+{
+   
+    width: 100%;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;    
+    color: #585858;
+    
+}
+.landingpagebuttons
+{
+    padding: 5% 0%;
+margin: auto;
+width: 200px;
+}
+.buttonstyle
+{
+    background-color: $buttoncolor !important;
+    width: 193px !important;
+    height: 46px;
+    font-size: 16px !important;
+}
+.signupbuttonstyle
+{
+    
+font-size: 16px !important;
+color: blue !important;
+&:focus{outline: 0px;}
+}
+.linkstyle
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+.titlesignup
+{
+    text-align: center;
+     padding:50px;
+    background-color: #FCFCFC;
+}
+.formstyle
+{
+    border-radius: 3px;
+    width: 70%;
+    margin: 1% 15%;
+    padding:8px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    font-size: 14px;
+    
+}
+.formstylepassword
+{
+    border-radius: 3px;
+    width: 95%;
+    font-size: 14px;
+    border-width: 0px;
+    &:focus{
+    border: 0px;
+    outline: 0px;
+    }
+}
+.passwordfield
+{
+    width: 70%;
+    margin: 1% .5% 1% 15%;
+    padding:8px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+.firstnameinputstyle
+{
+    margin:5% 2% 6% 31%;
+}
+.lastnameinputstyle
+{
+    margin:5% 3% 6% -2%;;
+}
+.continue
+{
+    padding:5% 27% 10% 27%;
+    width:100%;
+    text-align: center;
+   
+}
+.already
+{
+    text-align: center;
+}
